@@ -1,0 +1,114 @@
+/* GLOBAL */
+* {
+	box-sizing: border-box;
+}
+
+/*header*/
+
+h1 img, span {
+	display: inline-block;
+	vertical-align: middle;
+	color: grey;
+}
+
+header nav
+{
+	text-align:center;
+	border-bottom: 3px solid #2cbcd6;
+}
+/* NAV */
+nav ul li  {
+	padding: 15px;
+}
+nav ul li:hover  {
+	background-color: #2cbcd6;
+	color: white; 
+}
+nav ul li:hover > a {
+	text-decoration: none;
+	color: white; 
+}
+
+.subMenu {
+	padding: 15px 0 20px;
+}
+nav ul.menu {
+	position: relative;
+}
+.onglet {
+	display: inline-block;
+	padding:  15px 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.subMenu {
+	position: absolute;
+	display:none;
+	background-color: #2cbcd6;
+	width:100%;
+	left:0;
+}
+nav ul > li:hover .subMenu
+{
+	display:block;
+}
+
+nav ul li ul
+{
+	list-style-type:none;
+	padding:0;
+	color: white;
+}
+
+.subMenu .right, .subMenu .left
+{
+	width: 50%;
+	float:left;
+}
+
+h3 {
+	color: #82e4ef;
+}
+
+a {
+	text-decoration: none;
+	color: #2cbcd6;
+}
+
+
+
+
+
+/* Content */
+main {
+	max-width: 65%;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+h2 {
+	color: #2cbcd6;
+}
+
+
+/*footer */
+
+
+footer {
+	background-color: #2cbcd6;
+	color:white;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	background-size: cover;
+}
+footer a {
+	color: white;
+}
+footer img {
+	max-width: 40px;
+	height:auto;
+}

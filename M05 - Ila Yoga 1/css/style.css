@@ -1,0 +1,216 @@
+* {
+	box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
+	line-height: 180%;
+	color: grey;
+}
+
+
+/* HEADER */ 
+
+header {
+	background-image: url(../img/fond.jpg);
+	background-position: bottom;
+	text-align: center;
+	background-size: cover;
+}
+nav {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+nav a {
+	display: inline-block;
+	padding: 10px 40px 15px;
+}
+nav a .fas {
+	display: block;
+	margin-bottom: 10px;
+
+}
+nav a .far {
+	display: block;
+	margin-bottom: 10px;
+}
+
+ header a {
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 1.5em;
+ 	font-family: 'Kaushan Script', cursive;
+ }
+ header i {
+ 	color: white;
+ 	display: block;
+ }
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+	color: white;
+	padding: 150px 0 270px;
+	text-shadow: 2px 2px 2px black;
+}
+
+header p {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px 0 10px;
+	margin-top: 0;
+}
+
+/*   **CONTENT**   */
+
+/* Premiere partie */
+#intro {
+	color: #404759;
+	max-width: 97%;
+	margin: 0 auto 2%;
+}
+#intro h2 {
+	text-align: center;
+	font-weight: normal;
+	margin-top: 60px;
+}
+#intro article:nth-child(even) img{
+	float:left;
+	margin-bottom: 45px;
+	margin-right: 20px
+}
+#intro article:nth-child(odd) img{
+	float: right;
+	margin-left: 20px;
+}
+#intro article:after {
+	content:" ";
+	clear: both;
+	display: block;
+}
+#intro article:not(:first-child):before {
+	content:" ";
+	width: 80%;
+	background-color: grey;
+	margin: 15px auto;
+	height: 1px;
+	display: block;
+}
+/* Bandeau violet, seconde partie */
+.programme{
+	background-image: url(../img/background_section.jpg);
+	color: white;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+.programme article {
+	width: calc(100% / 3);
+	margin:0 auto;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding:15px;
+}
+.programme h2 {
+	margin: 65px 0 50px;
+}
+.programme p {
+	padding: 0 100px;
+}
+
+/**   CONTACT.HTML **/
+
+/*GLOBAL */
+.contact {
+	text-align: center;
+}
+#content {
+	max-width: 88%;
+	margin: 0 auto;
+}
+
+/* Tableaux */
+table {
+	width:100%;
+	border-collapse: collapse;
+	border: 1px solid #a9a9a9;
+    margin-bottom: 15px;
+}
+td {
+	border: 1px solid #a9a9a9;
+}
+table a {
+	text-decoration: none;
+	color: #c4a5de;
+	display: inline-block;
+	margin:0 auto;
+}
+.alignleft{
+	text-align: left;
+	padding-left: 10px;
+}
+tbody tr:nth-child(even){
+	background-color: #f2f2f2;
+} 
+th {
+	background-color: #c4a5de;
+	color: white;
+	text-align: left;
+	font-family: 'Kaushan Script', cursive;
+	padding: 5px 0 5px 15px;
+}
+
+
+h2 {
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+/* formulaire */
+legend {
+	text-align: center;
+	font-size: 20px;
+}
+input[type="text"] {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+input[type="email"] {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+fieldset {
+	margin-top: 35px;
+	border: 0.2px solid #a9a9a9;
+}
+label {
+	padding-left: 30px;
+}
+
+/* boutton */
+.sub {
+	background-color: #8b5bc1;
+	color: white;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 15px 15px;
+}
+select {
+	width: 100%;
+	background-color: white;
+}
+/*Footer, bas de page */
+footer {
+	background-image: url(../img/background_section.jpg);
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	background-size: cover;
+}
+footer img {
+	max-width: 40px;
+	height:auto;
+}

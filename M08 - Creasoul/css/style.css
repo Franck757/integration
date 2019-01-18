@@ -1,0 +1,105 @@
+/* global */
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	background-color: #f2f1f4;
+}
+
+/* CONTENT */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header */
+header {
+	text-align: center;
+}
+
+nav {
+	background-color: #30a894;
+	text-align: center;
+	padding: 20px 0 20px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 100px;
+	display: block;
+}
+/* Main */
+main {
+	text-align: left;
+}
+h1, h2, h3 {
+	color: #30a894;
+	font-weight: normal;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-size: 4rem;
+	border-bottom: 1px solid #30a894;
+}
+h2 {
+	border-bottom: 1px solid #30a894;
+}
+/*aside*/
+aside {
+	display: none;
+	background-color: #b8dcb1;
+}
+aside p, aside h2 {
+	padding: 10px 10px 10px;
+}
+aside h2 {
+	margin: 0 15px;
+}
+/*  OTHER */
+span {
+	color: #30a894;
+}
+
+
+/* footer */
+footer {
+	background-image: url(../img/background_section.jpg);
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+	background-size: cover;
+}
+footer img {
+	max-width: 40px;
+	height:auto;
+}
+
+/* Ecran tablette */
+@media screen and (min-width:768px) {
+	aside {
+		display: block;
+	}
+}
+/* Ecran DESKTOP */
+ @media screen and (min-width: 1024px) {
+ 	body {
+ 		max-width: 80%;
+ 		margin: 0 auto;
+ 	}
+ 	a {
+ 		display: inline-block;
+ 	}
+ 	article {
+ 		display:inline-block;
+ 		width: 68%;
+ 		margin-right: 2%;
+ 	}
+ 	aside {
+ 		display: inline-block;
+ 		width: 30%;
+ 	}
+ 	article, aside {
+ 		vertical-align: top;
+ 	}
+ }

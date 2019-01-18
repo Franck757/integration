@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/fond.png);
+	font-family: 'Open Sans', sans-serif;
+
+}
+.blue {
+	color: #2b9aa0;
+}
+.white {
+	color: #aedbd9;
+}
+.clear {
+	clear:both;
+}
+h1, h2, h3, h4, nav
+{
+		font-family: "Slabo 27px", serif;
+		font-weight:normal;
+}
+p
+{
+	margin:7px 0;
+	line-height:1.5em;
+}
+header {
+	text-align: center;
+	margin: 85px;
+	background-color: #34b1b2;
+	border: 5px solid #2b9aa0;
+	border-left: none;
+	border-right: none;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+main {
+	max-width: 1100px;
+	min-width: 800px;
+	color: #454a54;
+	margin: 0 auto;
+}
+main section h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+h1 {
+	margin: 0;
+
+}
+header nav a {
+	text-decoration: none;
+	padding: 10px 20px;
+	color:white;
+	text-align:center;
+}
+nav {
+	padding-bottom: 15px;
+
+}
+.fa-tint {
+	color: #34b1b2;
+}
+#intro {
+	width: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
+	padding:0 20%;
+}
+
+#recette {
+	background-color: #b6dedc;
+	float: left;
+	width: 68%;
+	margin-right:2%;
+	padding:15px;
+}
+#recette h2 {
+	font-size: 3.5em;
+}
+#evenements {
+	width: 30%;
+	float: left;
+	border: 5px solid #2b9aa0;
+	color: white;
+	font-size:.9em;	
+	padding:15px;
+}
+#recette article{
+	display:inline-block;
+	max-width: 50%;
+	padding:15px;
+	vertical-align: top;
+}
+
+#recette a {
+	background-color: #2b9aa0;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	float: right;
+}
+#recette i {
+	padding: 0 5px;
+}
+#recette h3 {
+	text-align:center;
+	font-size: 30px;
+}
+#evenements i {
+	color: #b6dedc;
+}
+#evenements a {
+	color: #b6dedc;
+	text-decoration: none;
+}
+#evenements img {
+	position: absolute;
+	right: -70px;
+	top: -70px;
+}
+
+article img {
+	border-radius: 50%;
+	margin-right:10px;
+	float:left;
+}
+aside {
+	background-color: #34b1b2;
+	position: relative;
+}
+footer {
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+}
+footer img {
+	max-width: 40px;
+	height:auto;
+}

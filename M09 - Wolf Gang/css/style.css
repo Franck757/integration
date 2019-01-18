@@ -1,0 +1,225 @@
+@font-face {
+	src: url(../css/fonts/BodegaSans_Black.ttf);
+	font-family: 'Bodega Sans';
+
+}
+
+* {
+	box-sizing: border-box;
+}
+.clear
+{
+	clear:both;
+}
+/* GLOBAL */
+
+body {
+	background-image: url(../img/bg_body.svg);
+	background-color: #434343;
+	font-size: 1rem;
+	margin: 0 auto;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+/* header */
+header {
+	background: -moz-linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: -webkit-linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    background: linear-gradient(130deg, white 0%, white 50%, #333 50%, #333 100%);
+    margin: 15px;
+}
+nav {
+	font-size: 2.5rem;
+	font-family: 'Bodega Sans';
+	padding-top: 40px;
+}
+nav a {
+	padding: 10px 0 10px;
+	font-weight: normal;
+	display:block;
+	text-align: right;
+	padding: 30px;
+}
+header a, main a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+
+/* CONTENT */
+h1 {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Bodega Sans';
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 150px;
+}
+h2 {
+	color: white;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: normal;
+	font-size: 2em;
+	font-family: 'Bodega Sans';
+}
+.border {
+	border-top: 4px solid #3e3e3e;
+	border-left: 4px solid #3e3e3e;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+h3 {
+	color: #ff9d00;
+	border-bottom: 2px solid #ff9d00;
+	width: 85%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Bodega Sans';
+}
+header .logo {
+float:left;
+
+}
+header nav {
+float:right;
+}
+header:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+section article {
+	background-color: white;
+	padding: 15px;
+}
+article {
+	margin-top: 35px;
+}
+article p {
+	text-align: center;
+}
+article img {
+	max-width: 100%;
+}
+article a {
+	background-color: #ff9d00;
+	padding: 10px 0 10px;
+	text-align: center;
+}
+video {
+	max-width: 100%
+}
+span {
+	color: #ff9d00;
+}
+
+aside a {
+	font-size: 50px;
+	padding: 25px 0 20px;
+}
+aside p {
+	color: white;
+}
+/* footer */ 
+footer {
+	text-align: center;
+	font-size:.85em;
+	padding: 10px;
+	background-size: cover;
+	color: white;
+	margin: 15px;
+	box-shadow: 10px 10px 40px 1px black;
+}
+footer img {
+	max-width: 40px;
+	height:auto;
+
+}
+footer a {
+	color: white;
+}
+footer h2 {
+	text-align: center;
+}
+
+
+
+
+/* Ecran tablette */
+@media screen and (min-width:768px) {
+		header .logo
+		{
+		float:left;
+		}
+		header nav
+		{
+			float:right;
+			text-align: right;
+			padding: 30px ;
+		}
+		header:after
+		{
+			content:"";
+			display:block;
+			clear:both;
+		}
+}
+
+
+/* Ecran DESKTOP */
+@media screen and (min-width: 1024px)
+{
+	header {
+		margin: 0;
+	}
+	section article {
+		display: inline-block;
+		width: calc((100% / 4) - 20px);
+		margin: 0 10px;
+		vertical-align: top;
+	}
+	.logo {
+		margin-left: 200px;
+		margin-top: 60px;
+	}
+	nav a {
+
+		text-align: right;
+		padding: 20px 150px;
+	}
+	aside {
+		margin-bottom: 70px; 
+	}
+	aside a {
+		display: inline-block;
+		padding: 30px 45px 0;
+	}
+	aside p {
+		text-align: left;
+		float:left;
+	}
+	.left, .right
+	{
+		width:45%;
+		margin:2%;
+		float:left;
+	}
+	.right {
+		margin-bottom: 50px;
+	}
+	footer
+	{
+		margin:0;
+	}
+	.contact{
+		padding: 0 20px;
+	}
+}
